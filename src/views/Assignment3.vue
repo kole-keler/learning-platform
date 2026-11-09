@@ -202,7 +202,7 @@ const faqs = [
             <h2 class="section-title">精选课程</h2>
             <p class="section-subtitle">跟随行业一线工程师学习</p>
           </div>
-          <el-link type="primary" :underline="false" class="section-more">全部</el-link>
+          <el-link type="primary" class="section-more">全部</el-link>
         </div>
 
         <el-tabs v-model="activeTab" class="course-tabs">
