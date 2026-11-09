@@ -1,0 +1,30 @@
+:root {
+  --brand-color: #409eff;
+  --page-bg: #f5f7fa;
+  --text-main: #303133;
+  --text-regular: #606266;
+  --text-secondary: #909399;
+  --price-color: #ff7d00;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--page-bg);
+  color: var(--text-main);
+  font-family: 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  min-height: 100vh;
+}
